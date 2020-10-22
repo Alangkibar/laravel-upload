@@ -1,0 +1,26 @@
+{
+    "name": "alangkibar/laravel-uploader",
+    "description": "Most complete laravel uploader wrapper",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Ahmad Alangkibar",
+            "email": "alangkibar25@gmail.com"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {},
+    "autoload": {
+        "psr-4": {
+            "Alangkibar\\LaravelUploader\\": "src/"
+        }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Alangkibar\\LaravelUploader\\UploaderServiceProvider"
+            ]
+        }
+    }
+}
