@@ -53,7 +53,7 @@ class Uploader{
 
             $uploaded = $this->upload->start($target_directory, $file);
 
-            $this->build_response($uploaded);
+            return $this->build_response($uploaded);
         }
     }
 
